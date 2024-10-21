@@ -248,10 +248,16 @@
         margin-left: 10px;
     }
 
-    .header .last_header .user_profile .info p {
-
+    .header .last_header .user_profile .info h2 {
         margin-top: 3px;
-        font-size: 14px;
+        font-size: 10px;
+        width: 40px;
+    }
+    .header .last_header .user_profile .info p{
+        margin-top: 3px;
+        font-size: 12px;
+        margin-left: 0px;
+        width: 40px;
     }
 
     .header .last_header .nav {
