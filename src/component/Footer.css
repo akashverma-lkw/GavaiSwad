@@ -1,0 +1,196 @@
+New ! Keyboard shortcuts … Drive keyboard shortcuts have been updated to give you first-letters navigation * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.footer {
+    width: 100%;
+    padding: 30px 40px;
+    background: #f6f6f6;
+}
+
+.footer .container {
+    display: flex;
+    max-width: 100%;
+}
+
+.footer .container .left-box {
+    width: 30%;
+    padding: 20px 20px;
+    border-right: 2px solid #b8b7b7;
+}
+
+.footer .container .left-box .box {
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.footer .container .left-box .box .icon_box {
+    font-size: 26px;
+    color: #cd1e76;
+}
+
+.footer .container .left-box .box .detail {
+    margin-left: 10px;
+}
+
+.footer .container .left-box .box .detail h3 {
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #cd1e76;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.footer .container .left-box .box .detail p {
+    font-size: 14px;
+    color: #232323;
+}
+
+.footer .container .right_box {
+    padding: 10px 20px;
+    width: 69%;
+}
+.footer .container .right_box img{
+    mix-blend-mode: multiply; 
+    margin-top: -79px;
+    width: 205px;
+    height: 190px;
+    cursor: pointer;
+}
+
+.footer .container .right_box .header {
+    max-width: 100%;
+    align-items: center;
+}
+
+.footer .container .right_box .header img {
+    margin-left: 42%;
+}
+
+.footer .container .right_box .header p {
+    position: absolute;
+    margin-top: -33px;
+    margin-left: 6%;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    color: #8a8a8a;
+}
+
+.footer .container .right_box .bottom {
+    padding: 20px 20px;
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container .right_box .bottom .box {
+    padding: 10px 20px;
+}
+
+.footer .container .right_box .bottom .box h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #232323;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.footer .container .right_box .bottom .box ul {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer .container .right_box .bottom .box ul li {
+    list-style: none;
+    margin-top: 5px;
+    color: #8a8a8a;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footer .container .right_box .bottom .box ul li:hover {
+    color: #cd1e76;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .footer {
+        padding: 10px 20px; /* Adjust padding */
+    }
+
+    .footer .container {
+        flex-direction: column; /* Stack columns vertically */
+    }
+
+    .footer .container .left-box {
+        display: flex;
+        max-width: 100%; /* Full width for left box */
+        border-right: none; /* Remove right border */
+        margin-bottom: 10px; /* Space below */
+    }
+
+    .footer .container .right_box {
+        width: 100%; /* Full width for right box */
+    }
+
+    .footer .container .left-box .box {
+        margin-right: 0px;
+        margin-left: -12px;
+        flex-direction: column; /* Stack icons and details vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .footer .container .left-box .box .detail {
+        margin-left: 0; /* No left margin */
+        text-align: center; /* Center text */
+    }
+    .footer .container .left-box .box .detail h3{
+        font-size: 8px;
+    }
+    .footer .container .right_box .header img{
+        margin-left: 50px;
+    }
+
+    .footer .container .right_box .header p {
+        margin-top: -35px; /* Adjust margin for header text */
+        margin-right: 40px;
+        font-size: 12px;
+    }
+
+    .footer .container .right_box .bottom {
+        flex-direction: column; /* Stack bottom items vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .footer .container .right_box .bottom .box {
+        width: 100%; /* Full width for boxes */
+        padding: 10px; /* Adjust padding */
+        margin-bottom: 15px; /* Space between boxes */
+    }
+
+    .footer .container .right_box .bottom .box h3 {
+        font-size: 13px; /* Smaller heading size */
+    }
+    .footer .container .right_box .bottom .box ul {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 15px;
+    }
+    .footer .container .right_box .bottom .box ul li {
+        font-size: 11px; /* Smaller list item size */
+       
+    }
+}
